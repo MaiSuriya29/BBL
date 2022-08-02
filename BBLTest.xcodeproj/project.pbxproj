@@ -11,6 +11,28 @@
 		5127614B289835D400A0B785 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5127614A289835D400A0B785 /* ContentView.swift */; };
 		5127614D289835D600A0B785 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5127614C289835D600A0B785 /* Assets.xcassets */; };
 		51276150289835D600A0B785 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5127614F289835D600A0B785 /* Preview Assets.xcassets */; };
+		51276158289835FD00A0B785 /* Auth0 in Frameworks */ = {isa = PBXBuildFile; productRef = 51276157289835FD00A0B785 /* Auth0 */; };
+		5127615A289836FC00A0B785 /* Auth0.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51276159289836FC00A0B785 /* Auth0.plist */; };
+		51BC706C2899045B0066E922 /* AppAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 51BC706B2899045B0066E922 /* AppAuth */; };
+		51BC706E2899045B0066E922 /* AppAuthCore in Frameworks */ = {isa = PBXBuildFile; productRef = 51BC706D2899045B0066E922 /* AppAuthCore */; };
+		51BC70742899057C0066E922 /* ApplicationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BC70732899057C0066E922 /* ApplicationError.swift */; };
+		51BC7077289905CD0066E922 /* ApplicationConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BC7076289905CD0066E922 /* ApplicationConfig.swift */; };
+		51BC70792899063B0066E922 /* ApplicationConfigLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BC70782899063B0066E922 /* ApplicationConfigLoader.swift */; };
+		51BC707B2899067D0066E922 /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = 51BC707A2899067D0066E922 /* config.json */; };
+		51BC707E289906E10066E922 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BC707D289906E10066E922 /* Logger.swift */; };
+		51BC70802899072C0066E922 /* AppAuthHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BC707F2899072C0066E922 /* AppAuthHandler.swift */; };
+		51BC7083289908260066E922 /* SwiftCoroutine in Frameworks */ = {isa = PBXBuildFile; productRef = 51BC7082289908260066E922 /* SwiftCoroutine */; };
+		51BC70852899088D0066E922 /* ApplicationStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BC70842899088D0066E922 /* ApplicationStateManager.swift */; };
+		51BC7088289908C20066E922 /* SwiftKeychainWrapper in Frameworks */ = {isa = PBXBuildFile; productRef = 51BC7087289908C20066E922 /* SwiftKeychainWrapper */; };
+		51BC708A289909940066E922 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BC7089289909940066E922 /* MainViewModel.swift */; };
+		51BC708C289909E50066E922 /* UnauthenticatedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BC708B289909E50066E922 /* UnauthenticatedViewModel.swift */; };
+		51BC708F28990A5A0066E922 /* SwiftJWT in Frameworks */ = {isa = PBXBuildFile; productRef = 51BC708E28990A5A0066E922 /* SwiftJWT */; };
+		51BC709128990A7D0066E922 /* AuthenticatedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BC709028990A7D0066E922 /* AuthenticatedViewModel.swift */; };
+		51BC709328990C020066E922 /* UnauthenticatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BC709228990C020066E922 /* UnauthenticatedView.swift */; };
+		51BC709528990CAC0066E922 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BC709428990CAC0066E922 /* ErrorView.swift */; };
+		51BC709728990CEA0066E922 /* ErrorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BC709628990CEA0066E922 /* ErrorViewModel.swift */; };
+		51BC7099289926B60066E922 /* AuthenticatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BC7098289926B60066E922 /* AuthenticatedView.swift */; };
+		51BC709B28992A660066E922 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BC709A28992A660066E922 /* UserModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +41,22 @@
 		5127614A289835D400A0B785 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5127614C289835D600A0B785 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5127614F289835D600A0B785 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		51276159289836FC00A0B785 /* Auth0.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Auth0.plist; sourceTree = "<group>"; };
+		51BC70732899057C0066E922 /* ApplicationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationError.swift; sourceTree = "<group>"; };
+		51BC7076289905CD0066E922 /* ApplicationConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationConfig.swift; sourceTree = "<group>"; };
+		51BC70782899063B0066E922 /* ApplicationConfigLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationConfigLoader.swift; sourceTree = "<group>"; };
+		51BC707A2899067D0066E922 /* config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = config.json; sourceTree = "<group>"; };
+		51BC707D289906E10066E922 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		51BC707F2899072C0066E922 /* AppAuthHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAuthHandler.swift; sourceTree = "<group>"; };
+		51BC70842899088D0066E922 /* ApplicationStateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationStateManager.swift; sourceTree = "<group>"; };
+		51BC7089289909940066E922 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		51BC708B289909E50066E922 /* UnauthenticatedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnauthenticatedViewModel.swift; sourceTree = "<group>"; };
+		51BC709028990A7D0066E922 /* AuthenticatedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticatedViewModel.swift; sourceTree = "<group>"; };
+		51BC709228990C020066E922 /* UnauthenticatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnauthenticatedView.swift; sourceTree = "<group>"; };
+		51BC709428990CAC0066E922 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		51BC709628990CEA0066E922 /* ErrorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorViewModel.swift; sourceTree = "<group>"; };
+		51BC7098289926B60066E922 /* AuthenticatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticatedView.swift; sourceTree = "<group>"; };
+		51BC709A28992A660066E922 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +64,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51BC706C2899045B0066E922 /* AppAuth in Frameworks */,
+				51276158289835FD00A0B785 /* Auth0 in Frameworks */,
+				51BC708F28990A5A0066E922 /* SwiftJWT in Frameworks */,
+				51BC7088289908C20066E922 /* SwiftKeychainWrapper in Frameworks */,
+				51BC706E2899045B0066E922 /* AppAuthCore in Frameworks */,
+				51BC7083289908260066E922 /* SwiftCoroutine in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,10 +95,13 @@
 		51276147289835D400A0B785 /* BBLTest */ = {
 			isa = PBXGroup;
 			children = (
+				51BC707F2899072C0066E922 /* AppAuthHandler.swift */,
+				51BC70842899088D0066E922 /* ApplicationStateManager.swift */,
 				51276148289835D400A0B785 /* BBLTestApp.swift */,
-				5127614A289835D400A0B785 /* ContentView.swift */,
+				51BC7070289905030066E922 /* Source */,
 				5127614C289835D600A0B785 /* Assets.xcassets */,
 				5127614E289835D600A0B785 /* Preview Content */,
+				51276159289836FC00A0B785 /* Auth0.plist */,
 			);
 			path = BBLTest;
 			sourceTree = "<group>";
@@ -65,6 +112,67 @@
 				5127614F289835D600A0B785 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		51BC706F289904700066E922 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5127614A289835D400A0B785 /* ContentView.swift */,
+				51BC709228990C020066E922 /* UnauthenticatedView.swift */,
+				51BC7098289926B60066E922 /* AuthenticatedView.swift */,
+				51BC709428990CAC0066E922 /* ErrorView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		51BC7070289905030066E922 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				51BC707C289906CE0066E922 /* Utilities */,
+				51BC7075289905B30066E922 /* Configuration */,
+				51BC7072289905530066E922 /* Model */,
+				51BC7071289905410066E922 /* ModelView */,
+				51BC706F289904700066E922 /* View */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		51BC7071289905410066E922 /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+				51BC7089289909940066E922 /* MainViewModel.swift */,
+				51BC708B289909E50066E922 /* UnauthenticatedViewModel.swift */,
+				51BC709028990A7D0066E922 /* AuthenticatedViewModel.swift */,
+				51BC709628990CEA0066E922 /* ErrorViewModel.swift */,
+			);
+			path = ModelView;
+			sourceTree = "<group>";
+		};
+		51BC7072289905530066E922 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				51BC7076289905CD0066E922 /* ApplicationConfig.swift */,
+				51BC709A28992A660066E922 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		51BC7075289905B30066E922 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				51BC70732899057C0066E922 /* ApplicationError.swift */,
+				51BC70782899063B0066E922 /* ApplicationConfigLoader.swift */,
+				51BC707A2899067D0066E922 /* config.json */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		51BC707C289906CE0066E922 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				51BC707D289906E10066E922 /* Logger.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +191,14 @@
 			dependencies = (
 			);
 			name = BBLTest;
+			packageProductDependencies = (
+				51276157289835FD00A0B785 /* Auth0 */,
+				51BC706B2899045B0066E922 /* AppAuth */,
+				51BC706D2899045B0066E922 /* AppAuthCore */,
+				51BC7082289908260066E922 /* SwiftCoroutine */,
+				51BC7087289908C20066E922 /* SwiftKeychainWrapper */,
+				51BC708E28990A5A0066E922 /* SwiftJWT */,
+			);
 			productName = BBLTest;
 			productReference = 51276145289835D400A0B785 /* BBLTest.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +227,13 @@
 				Base,
 			);
 			mainGroup = 5127613C289835D400A0B785;
+			packageReferences = (
+				51276156289835FC00A0B785 /* XCRemoteSwiftPackageReference "Auth0" */,
+				51BC706A2899045B0066E922 /* XCRemoteSwiftPackageReference "AppAuth-iOS" */,
+				51BC7081289908260066E922 /* XCRemoteSwiftPackageReference "SwiftCoroutine" */,
+				51BC7086289908C20066E922 /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */,
+				51BC708D28990A5A0066E922 /* XCRemoteSwiftPackageReference "Swift-JWT" */,
+			);
 			productRefGroup = 51276146289835D400A0B785 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +249,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				51276150289835D600A0B785 /* Preview Assets.xcassets in Resources */,
+				51BC707B2899067D0066E922 /* config.json in Resources */,
+				5127615A289836FC00A0B785 /* Auth0.plist in Resources */,
 				5127614D289835D600A0B785 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +262,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51BC70852899088D0066E922 /* ApplicationStateManager.swift in Sources */,
+				51BC709328990C020066E922 /* UnauthenticatedView.swift in Sources */,
+				51BC7077289905CD0066E922 /* ApplicationConfig.swift in Sources */,
+				51BC709128990A7D0066E922 /* AuthenticatedViewModel.swift in Sources */,
+				51BC707E289906E10066E922 /* Logger.swift in Sources */,
 				5127614B289835D400A0B785 /* ContentView.swift in Sources */,
 				51276149289835D400A0B785 /* BBLTestApp.swift in Sources */,
+				51BC70742899057C0066E922 /* ApplicationError.swift in Sources */,
+				51BC70802899072C0066E922 /* AppAuthHandler.swift in Sources */,
+				51BC709728990CEA0066E922 /* ErrorViewModel.swift in Sources */,
+				51BC709B28992A660066E922 /* UserModel.swift in Sources */,
+				51BC7099289926B60066E922 /* AuthenticatedView.swift in Sources */,
+				51BC70792899063B0066E922 /* ApplicationConfigLoader.swift in Sources */,
+				51BC708A289909940066E922 /* MainViewModel.swift in Sources */,
+				51BC709528990CAC0066E922 /* ErrorView.swift in Sources */,
+				51BC708C289909E50066E922 /* UnauthenticatedViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +476,82 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		51276156289835FC00A0B785 /* XCRemoteSwiftPackageReference "Auth0" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/auth0/Auth0.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		51BC706A2899045B0066E922 /* XCRemoteSwiftPackageReference "AppAuth-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/openid/AppAuth-iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		51BC7081289908260066E922 /* XCRemoteSwiftPackageReference "SwiftCoroutine" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/belozierov/SwiftCoroutine";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		51BC7086289908C20066E922 /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jrendel/SwiftKeychainWrapper";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		51BC708D28990A5A0066E922 /* XCRemoteSwiftPackageReference "Swift-JWT" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Kitura/Swift-JWT.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		51276157289835FD00A0B785 /* Auth0 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 51276156289835FC00A0B785 /* XCRemoteSwiftPackageReference "Auth0" */;
+			productName = Auth0;
+		};
+		51BC706B2899045B0066E922 /* AppAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 51BC706A2899045B0066E922 /* XCRemoteSwiftPackageReference "AppAuth-iOS" */;
+			productName = AppAuth;
+		};
+		51BC706D2899045B0066E922 /* AppAuthCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 51BC706A2899045B0066E922 /* XCRemoteSwiftPackageReference "AppAuth-iOS" */;
+			productName = AppAuthCore;
+		};
+		51BC7082289908260066E922 /* SwiftCoroutine */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 51BC7081289908260066E922 /* XCRemoteSwiftPackageReference "SwiftCoroutine" */;
+			productName = SwiftCoroutine;
+		};
+		51BC7087289908C20066E922 /* SwiftKeychainWrapper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 51BC7086289908C20066E922 /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */;
+			productName = SwiftKeychainWrapper;
+		};
+		51BC708E28990A5A0066E922 /* SwiftJWT */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 51BC708D28990A5A0066E922 /* XCRemoteSwiftPackageReference "Swift-JWT" */;
+			productName = SwiftJWT;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5127613D289835D400A0B785 /* Project object */;
 }
