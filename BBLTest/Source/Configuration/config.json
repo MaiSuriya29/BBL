@@ -2,7 +2,7 @@
   "issuer": "https://dev-yg.us.auth0.com",
   "clientID": "82P2B1YcY7KlQkCPJ4mMnmBTPyI2pLTd",
   "redirectUri": "com.suriyaMee.bbl.BBLTest://dev-yg.us.auth0.com/ios/com.suriyaMee.bbl.BBLTest/callback",
-  "postLogoutRedirectUri": "io.curity.client:/logoutcallback",
+  "postLogoutRedirectUri": "",
   "scope": "openid profile",
   "grantType" : "Authorization Code Flow",
   "clientSecret" : "zWp1vmGR9M2PZcGbXe1WEoG2eu5tazeCdgu0K9O00RhvlTSjBcZI-xcJV4NG5MNj"
